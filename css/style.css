@@ -78,20 +78,27 @@ p {
 header {
     grid-column-start:1;
     grid-column-end: 4;
+    align-content: center;
 }
 
 footer {
     grid-column-start:1;
     grid-column-end: 4;
+    align-content: center;
 }
 
 .grid-conatiner2 {
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
+    align-content: end;
 }
 
-main {
-    align-items: end;
+.aside1 {
+    align-content: center;
+}
+
+.aside2 {
+    align-content: center;
 }
 
 }
